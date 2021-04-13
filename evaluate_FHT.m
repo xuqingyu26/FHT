@@ -29,7 +29,7 @@ distance_rec = mm.distance_rec;
 PASCAL_rec=mm.PASCAL_rec;
 average_cle_rec=mm.average_cle_rec;
 algorithms = {'ours', 'CSR-DCF','Ours'};
-for i = 33 : vid_num
+for i = 1 : vid_num
     video_path = fullfile(base_path,  video_sequence_name{i},'/HSI/');
     img_dir = dir(fullfile(video_path, '*.png'));
 
