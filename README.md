@@ -1,26 +1,11 @@
 ## Matlab implementation of "*Exploiting Spatial and Spectral Attention for Fast Hyperspectral Tracking*"
-
-
-### Download the Results
-**We share the quantitative and qualitative results achieved by our iPASSR on all the test sets for both 2xSR and 4xSR. Then, researchers can compare their algorithms to our method without performing inference. Results are available at [Baidu Drive](https://pan.baidu.com/s/1w8RtQau2RoY89jsFvMCStw) (Key: NUDT).**
-
-
-### Requirement
-* **PyTorch 1.3.0, torchvision 0.4.1. The code is tested with python=3.7, cuda=9.0.**
-* **Matlab (For training/test data generation and performance evaluation)**
-
-### Train
-* **Download the training sets from [Baidu Drive](https://pan.baidu.com/s/173UGmmN0rtOUghIT40oy8w) (Key: NUDT) and unzip them to `./data/train/`.** 
-* **Run `./data/train/GenerateTrainingPatches.m` to generate training patches.**
-* **Run `train.py` to perform training. Checkpoint will be saved to  `./log/`.**
-
-
+<br>
 
 ### Installation
 * **Download the repository.**
-* **Compile mex files running compile.m command. Set 'opencv_include' and 'opencv_libpath' to the correct Opencv paths.**
+* **Compile mex files running compile.m command: Set `opencv_include` and `opencv_libpath` to the correct Opencv paths.**
 
-* **Use `evaluate_FHT.m` script for the visualization of the tracker. Set tracker_path variable to the directory where your source code is and base_path to the directory where you have stored the HSI sequences.**
+* **Use `evaluate_FHT.m` script for the visualization of the tracker. Set `tracker_path` variable to the directory where your source code is and base_path to the directory where you have stored the HSI sequences.**
 
 
 ### Dataset
