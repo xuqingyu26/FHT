@@ -16,8 +16,7 @@
 **Compared with visible images, HyperSpectral Images HSI) can take advantage of rich spectral information to better discriminate foreground objects from complicated backgrounds. Despite continuous performance improvement, HSI trackers are always slow in dealing with high-dimensional HSI data. In this paper, we propose a new method named Fast Hyperspectral Tracker (FHT) in the correlation-filter (CF) based framework to track objects fast in hyperspectral videos by exploiting spatial and spectral attention from the HSI data.  The spatial attention map adaptively adjusts the filter support to the part of the object suitable for tracking. The spectral attention weights reflect the spectral-wise quality of the learned filters and are used as the feature weighting coefficients in localization. To acheive fast HSI tracking, we extract lightweight hyperspectral features from high-dimensional HSI data. Extensive experiments on the recently released Whisper dataset demonstrated the effectiveness of our work in terms of both accuracy and efficiency.**
 
 ### Comparison to SOTA (PR/SR)
-![](https://github.com/xuqingyu26/FHT/blob/main/images/RGB_PR.png)
-![](https://github.com/xuqingyu26/FHT/blob/main/images/RGB_SR.png)
+![](https://github.com/xuqingyu26/FHT/blob/main/images/RGBPRSR.png)
 
 ### Running results
 **Comparison with KCF and SAMF. Illustration of false color sequences "card", "coin", "drive", "forest", and "kangaroo" in the Whisper dataset. The colors of bounding box given by ground truth, FHT, SAMF and KCF+CN are blue, green, red and yellow.**
