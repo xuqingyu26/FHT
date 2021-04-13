@@ -3,9 +3,9 @@
 
 ### Installation
 ** Download the repository.**
-** Compile mex files running compile.m command. Set opencv_include and opencv_libpath to the correct Opencv paths.**
+** Compile mex files running compile.m command. Set 'opencv_include' and 'opencv_libpath' to the correct Opencv paths.**
 
-** Use evaluate_FHT.m script for the visualization of the tracker. Set tracker_path variable to the directory where your source code is and base_path to the directory where you have stored the HSI sequences.**
+** Use 'evaluate_FHT.m' script for the visualization of the tracker. Set tracker_path variable to the directory where your source code is and base_path to the directory where you have stored the HSI sequences.**
 <br>
 
 ### Dataset
