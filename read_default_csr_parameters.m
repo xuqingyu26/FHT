@@ -8,6 +8,7 @@ function parameters = read_default_csr_parameters(p)
     parameters.feature_type = {'hog', 'cn', 'hgray'};%, 'material', 
     parameters.y_sigma = 1;
     parameters.channels_weight_lr = parameters.learning_rate;
+    parameters.use_PSR = False;
     
     
     
