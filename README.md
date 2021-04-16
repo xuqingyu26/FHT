@@ -1,4 +1,4 @@
-## Matlab implementation of "*Exploiting Spatial and Spectral Attention for Fast Hyperspectral Tracking*" 及改进版 “*快速鲁棒高光谱数据跟踪算法*”
+## Matlab implementation of "*Exploiting Spatial and Spectral Attention for Fast Hyperspectral Tracking (FHT)*" 及改进版 “*快速鲁棒高光谱数据跟踪算法 (FRHT)*”
 <br>
 
 ### Installation
@@ -6,7 +6,7 @@
 * **Compile mex files running compile.m command: Set `opencv_include` and `opencv_libpath` to the correct Opencv paths.**
 
 * **Use `evaluate_FHT.m` script for the visualization of the tracker. Set `tracker_path` variable to the directory where your source code is and base_path to the directory where you have stored the HSI sequences.**
-* **Set **
+* **To use the FRHT, set the `parameters.feature_type` in `read_default_csr_parameters` `hgray` for the using of one channel grayscale feature, and set `parameters.use_PSR` True.**
 
 
 ### Dataset
