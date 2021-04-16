@@ -103,7 +103,7 @@ function [tracker, region] = track_csr_tracker(tracker, img, frame)
     temp_int = mean(Peak(2:frame));
     temp_psr = mean(PPSR(2:frame));
     www = 0.9;
-    if (frame > tracker.init && (Peak_res < tracker.response_threshold && temp_int > 0.35 || PSR_res / temp_psr < 0.8))
+    if (tracker.use_PSR && frame > tracker.init && (Peak_res < tracker.response_threshold && temp_int > 0.35 || PSR_res / temp_psr < 0.8))
         if tracker.use_segmentation
             % convert image in desired colorspace
             if strcmp(tracker.seg_colorspace, 'rgb')
