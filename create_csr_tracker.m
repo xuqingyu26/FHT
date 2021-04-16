@@ -250,6 +250,7 @@
     tracker.min_scale_factor = min_scale_factor;
     tracker.max_scale_factor = max_scale_factor;
     tracker.mask = mask;
+    tracker.use_parameters = init_params.use_PSR ;
     
     tracker.H_prev = H;
     
