@@ -1,4 +1,4 @@
-## Matlab implementation of "*Exploiting Spatial and Spectral Attention for Fast Hyperspectral Tracking (FHT)*" 及改进版 “*快速鲁棒高光谱视频跟踪算法 (FRHT)*”
+## Matlab implementation of "*Exploiting Spatial and Spectral Attention for Fast Hyperspectral Tracking (FHT)*" 及改进版 “*快速鲁棒高光谱目标跟踪算法 (FRHT)*”
 <br>
 
 ### Installation
